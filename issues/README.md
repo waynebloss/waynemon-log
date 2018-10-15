@@ -10,5 +10,5 @@
 6. [Chrome Keyring Prompt](2018-10/06-Chrome_Keyring_Prompt.md)
 7. [Disable Bluetooth Autostart](2018-10/07-Disable_Bluetooth_Autostart.md)
 8. [Move Window To Monitor Command](2018-10/08-Move_Window_To_Monitor_Command.md)
-9. [Watchdog_Reboot_Error](2018-10/09-Watchdog_Reboot_Error.md)
+9. [Watchdog Reboot Error](2018-10/09-Watchdog_Reboot_Error.md)
 10. [Input Focus Rectangle](2018-10/10-Input_Focus_Rectangle.md)
