@@ -9,7 +9,10 @@ cursor like Windows.
 ### How to add custom cursors?
 
 - [XFCE Themes docs](https://wiki.xfce.org/howto/install_new_themes#cursors_44_and_46)
-say to put them in `~/.icons/<theme_name>/cursors/`.
+say to put them in `~/.icons/<theme_name>/cursors/`.<br>
+( _Found via
+[unix.stackexchange.com](https://unix.stackexchange.com/questions/108002/where-to-i-copy-mouse-cursor-themes-in-xfce-4-8/108068#108068)_
+)
 - [Top of the same page](https://wiki.xfce.org/howto/install_new_themes)
 lists where to get them.
 - Found a set of 
