@@ -23,8 +23,8 @@ the watchdog software components.
 ## Solutions
 
 I honestly can't remember the exact solution I used! Most likely setting the
-time correctly using `timeset` had fixed it by getting rid of the error
-(see last point below).
+time correctly using `timeset` had fixed it by getting rid of the error.
+Previously my clock was an hour behind (DST was not being applied).
 
 - Bookmarked: [same problem with list of things they tried.](https://serverfault.com/questions/911697/watchdog-watchdog0-watchdog-did-not-stop)
 - Bookmarked: [4 Ways to disable NMI Watchdog](https://www.pcsuggest.com/disable-nmi-watchdog-linux/#4_Permanently_disable_NMI_watchdog_through_boot_parameter).
