@@ -18,12 +18,13 @@ are alive.
 as an error and that the watchdog shutdown is part of normal business.
 - There were also quite a few reports of users seeing high resource usage by
 the watchdog software components.
-- So, let's find a way to disable it.fff
+- So, let's find a way to disable it or at least get rid of the error.
 
 ## Solutions
 
 I honestly can't remember the exact solution I used! Most likely setting the
-time correctly using `timeset` had fixed it (see last point below).
+time correctly using `timeset` had fixed it by getting rid of the error
+(see last point below).
 
 - Bookmarked: [same problem with list of things they tried.](https://serverfault.com/questions/911697/watchdog-watchdog0-watchdog-did-not-stop)
 - Bookmarked: [4 Ways to disable NMI Watchdog](https://www.pcsuggest.com/disable-nmi-watchdog-linux/#4_Permanently_disable_NMI_watchdog_through_boot_parameter).
@@ -33,3 +34,4 @@ to remember that not working anyway.
 - Maybe setting the time correctly using the `timeset` package did the trick?
 I can see that in my history immediately before the last time I updated
 `/etc/default/grub`...
+- Looking at my historey, I also ran `sudo wdctrl`...
