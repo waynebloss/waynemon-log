@@ -3,7 +3,8 @@
 Only the basic 1 and 2-finger gestures worked.
 I wanted to see if I could get 3 and 4-finger gestures working.
 
-The simple solution [libinput-gestures](https://github.com/bulletmark/libinput-gestures)
+The simple solution is to install
+[libinput-gestures](https://github.com/bulletmark/libinput-gestures)
 and configure it.
 
 ## Analysis
